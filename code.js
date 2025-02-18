@@ -35,8 +35,11 @@ let b = 20
 console.log("a:" + a);
 console.log("b:" + b);
 
+let auxiliar = a
+
 a = b
-b = a
+b = auxiliar
+
 
 console.log("");
 
@@ -63,23 +66,49 @@ let c = 20
 
 console.log("celsius: " + c);
 
-let F= (c*9/5 )+32
+let fah = (c*9/5 )+32
 
-console.log("Fahrenheit: " + f);
+console.log("Fahrenheit: " + fah);
 
 console.log("");
 
 console.log("Exercício 7");
 
 let nume = 8
-console.log("Numero" + nume);
+console.log("Numero: " + nume);
 
 let quadrado = nume * nume
-console.log("Ao quadrado" + quadrado);
+console.log("Ao quadrado: " + quadrado);
 
 console.log("");
 
-console.log("Exercício 8");
+console.log("Exercício 9");
+
+let anoDenascimento = 2008
+let ano = 2024
+
+let idade = ano - anoDenascimento
+
+console.log("Idade: " + idade);
+
+console.log("");
+
+console.log("Exercício 10");
+
+
+let precoOriginal = 200
+console.log("Preço original: " + precoOriginal);
+let porcentagemDesconto = 0.2
+console.log("Desconto: " + porcentagemDesconto);
+
+let desconto = precoOriginal * porcentagemDesconto
+
+console.log("Desconto: " + desconto);
+
+let precoatual = precoOriginal - desconto
+
+console.log("Preço atual: " + precoatual);
+
 
 
 
